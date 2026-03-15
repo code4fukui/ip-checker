@@ -1,5 +1,7 @@
 # ip-checker
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A simple web application that logs the IP addresses of clients accessing the server.
 
 ## Features

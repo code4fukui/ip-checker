@@ -1,16 +1,16 @@
 # ip-checker
 
-Deno を使って、クライアントの IP アドレスを記録するサーバーアプリケーションです。
+Denoを使ってクライアントのIPアドレスをログファイルに記録するサーバーアプリケーションです。
 
 ## デモ
 [デモサイト](https://code4fukui.github.io/ip-checker/)にアクセスすると、IPアドレスがログファイルに記録されます。
 
 ## 機能
 - クライアントのIPアドレスを取得
-- IPアドレスとアクセス時刻をログファイル(remoteAddr.txt)に保存
+- IPアドレスとアクセス時刻をログファイル(`remoteAddr.txt`)に保存
 
 ## 必要環境
-- Deno がインストールされている
+- [Deno](https://deno.land/)がインストールされていること
 
 ## 使い方
 1. Denoをインストールします。
@@ -23,8 +23,8 @@ cd ip-checker
 ```sh
 deno serve -A --port 7001 --host "[::]" ip-checker.js
 ```
-4. ブラウザで `http://localhost:7001` にアクセスします。
-5. ログファイル `remoteAddr.txt` にIPアドレスが記録されます。
+4. ブラウザで`http://localhost:7001`にアクセスします。
+5. ログファイル`remoteAddr.txt`にIPアドレスが記録されます。
 
 ## ライセンス
-このプロジェクトは MIT ライセンスの下で提供されています。
+このプロジェクトは[MITライセンス](LICENSE)の下で提供されています。
