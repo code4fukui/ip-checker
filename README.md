@@ -26,4 +26,4 @@ deno serve -A --port 7001 --host "[::]" ip-checker.js
 5. The IP address and timestamp will be logged in the `remoteAddr.txt` file
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+MIT License — see [LICENSE](LICENSE).
